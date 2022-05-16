@@ -1,0 +1,12 @@
+#问题一
+result <- NULL
+pp <- 1:50
+for(i in pp)
+result <- c(result , i*(i+1)/2)
+letter_15 <- letters[1:15]
+names(result) <- letter_15
+result[c(1,5,9,15)]
+
+#问题二
+number <- c(10:0 , 1:10)
+diag(number)
