@@ -1,0 +1,23 @@
+#问题一
+main_list <- list( 
+  list1 = c(0,1,4,9),
+  list2 = 16,
+  list3 = 25,
+  list4 = 36,
+  list5 = 49,
+  list6 = 64,
+  list7 = 81
+  )
+  
+#问题二
+iris_frame <- data.frame(iris)
+colMeans(iris_frame[1])
+colMeans(iris_frame[2])
+colMeans(iris_frame[3])
+colMeans(iris_frame[4])
+
+#问题三
+frame1 = data.frame(beaver1 , id = 1)
+frame2 = data.frame(beaver1 , id = 2)
+frame3 <- rbind(frame1 , frame2)
+subset(frame3 , activ==1)
