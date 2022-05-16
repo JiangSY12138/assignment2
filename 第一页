@@ -1,0 +1,25 @@
+#问题一
+class(Inf)
+class(NA)
+class(NaN)
+class("")
+mode(Inf)
+mode(NA)
+mode(NaN)
+mode("")
+storage.mode(Inf)
+storage.mode(NaN)
+storage.mode(NA)
+storage.mode("")
+
+#问题二
+pat_name <- c("dog" , "cat" , "dolphin", "hamster" , "goldfish")
+result <- (sample(pat_name , 100 , replace = TRUE))
+head(result)
+table(result)
+
+#问题三
+apple <- 1
+pear <- 2
+blueberry <- 3
+ls(pattern = "a")
